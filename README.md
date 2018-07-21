@@ -20,9 +20,9 @@ https://tools.ietf.org/html/rfc7748
 
 OpenSSL X25519:
 
-  openssl genpkey -algorithm X25519 -out privkey.pem
+    openssl genpkey -algorithm X25519 -out privkey.pem
   
-  openssl pkey -in privkey.pem -pubout -out pubkey.pem
+    openssl pkey -in privkey.pem -pubout -out pubkey.pem
 
 
 
