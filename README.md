@@ -1,4 +1,4 @@
-# NIST, IETF, IRTF specification standards
+# NIST/IETF Standards and Specifications 
 
 [1] IETF Worldwide search and statistics tracking
 https://www.arkko.com/tools/docstats.html
