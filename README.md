@@ -12,6 +12,12 @@ https://tools.ietf.org/html/rfc8031
 Message Encryption for Web Push
 https://tools.ietf.org/html/rfc8291
 
+Simple Certificate Enrolment Protocol, draft-gutmann-scep-06
+https://tools.ietf.org/id/draft-gutmann-scep-06.html
+
+Simple Certificate Enrollment Protocol, draft-nourse-scep-23
+https://tools.ietf.org/html/draft-nourse-scep-23
+
 Curve25519 Daniel Bernstein Eliptical curve white paper
 https://ed25519.cr.yp.to/ed25519-20110705.pdf
 
