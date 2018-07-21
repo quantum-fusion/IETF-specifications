@@ -18,8 +18,7 @@ http://openjdk.java.net/jeps/324
 Curve25519 and Curve448 IRTF specification
 https://tools.ietf.org/html/rfc7748
 
-OpenSSL X25519:
-
+OpenSSL X25519 public key private key generation:
     openssl genpkey -algorithm X25519 -out privkey.pem
   
     openssl pkey -in privkey.pem -pubout -out pubkey.pem
