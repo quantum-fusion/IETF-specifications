@@ -18,6 +18,9 @@ http://openjdk.java.net/jeps/324
 Curve25519 and Curve448 IRTF specification
 https://tools.ietf.org/html/rfc7748
 
+Apple's List of available trusted root certificates in iOS 11
+https://support.apple.com/en-us/HT208125
+
 OpenSSL X25519 public key private key generation:
 
     openssl genpkey -algorithm X25519 -out privkey.pem
