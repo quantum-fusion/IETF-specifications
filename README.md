@@ -28,6 +28,10 @@ https://tools.ietf.org/id/draft-gutmann-scep-06.html
 Simple Certificate Enrollment Protocol, draft-nourse-scep-23
 https://tools.ietf.org/html/draft-nourse-scep-23
 
+The Double Ratchet Algorithm, Revision 1, 2016-11-20, by Trevor Perrin (editor), Moxie Marlinspike
+https://signal.org/docs/specifications/doubleratchet/
+https://signal.org/docs/specifications/doubleratchet/doubleratchet.pdf
+
 Curve25519 Daniel Bernstein Eliptical curve white paper
 https://ed25519.cr.yp.to/ed25519-20110705.pdf
 
