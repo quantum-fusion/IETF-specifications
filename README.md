@@ -1,5 +1,8 @@
 # NIST, IETF, IRTF specification standards
 
+IETF Worldwide search and statistics tracking
+https://www.arkko.com/tools/docstats.html
+
 Internet Key Exchange Protocol IKEv2 with Curve25519 and Curve448
 https://tools.ietf.org/html/rfc8031
 
@@ -37,6 +40,12 @@ https://tools.ietf.org/html/rfc7748
 Apple's List of available trusted root certificates in iOS 11
 https://support.apple.com/en-us/HT208125
 
+Elliptic Curve Cryptography (ECC) in OpenPGP
+https://tools.ietf.org/html/rfc6637
+
+Edwards-Curve Digital Signature Algorithm (EdDSA)
+https://tools.ietf.org/html/rfc8032
+
 Dynamic Symmetric Key Provisioning Protocol (DSKPP), draft-ietf-keyprov-dskpp-14.txt, Sept 7 2010
 https://tools.ietf.org/html/draft-ietf-keyprov-dskpp-14
 
@@ -53,6 +62,7 @@ OpenSSL list ECC curves
 
 openssl ecparam -list_curves
 
-
+Acme-tiny - This is a tiny python script that renews Let's Encrypt certificates with openssl, by Ilari Liusvarra.
+https://gitlab.com/ilari_l/acme-tiny
 
 
