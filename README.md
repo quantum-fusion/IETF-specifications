@@ -4,6 +4,7 @@ The Transport Layer Security (TLS) Protocol Version 1.3
 https://tools.ietf.org/html/draft-ietf-tls-tls13-12#section-8
 
 NIST SP 800-56: Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography, July 2005, DRAFT
+- KDF2 key generation 
 https://csrc.nist.gov/CSRC/media/Publications/sp/800-56a/archive/2006-05-03/documents/sp800-56-draft-jul2005.pdf#page53
 
 Internet Key Exchange Protocol IKEv2 with Curve25519 and Curve448
