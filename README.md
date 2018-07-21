@@ -23,6 +23,10 @@ OpenSSL X25519 public key private key generation:
     openssl genpkey -algorithm X25519 -out privkey.pem
   
     openssl pkey -in privkey.pem -pubout -out pubkey.pem
+    
+OpenSSL list ECC curves
+
+openssl ecparam -list_curves
 
 
 
