@@ -9,6 +9,9 @@ https://csrc.nist.gov/CSRC/media/Publications/sp/800-56a/archive/2006-05-03/docu
 Internet Key Exchange Protocol IKEv2 with Curve25519 and Curve448
 https://tools.ietf.org/html/rfc8031
 
+Message Encryption for Web Push
+https://tools.ietf.org/html/rfc8291
+
 Curve25519 Daniel Bernstein Eliptical curve white paper
 https://ed25519.cr.yp.to/ed25519-20110705.pdf
 
