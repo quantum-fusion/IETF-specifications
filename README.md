@@ -1,5 +1,5 @@
 #
-# Quantum-fusion center for Advanced Cryptography Standards, established July 2018
+# Quantum-fusion center for Advanced Cryptography Standards, established Circa July 2018
 #
 
 # NIST/IETF Standards and Internet protocols
