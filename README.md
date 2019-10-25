@@ -16,70 +16,96 @@ https://tools.ietf.org/html/rfc8037
 [4] HMAC-based Extract-and-Expand Key Derivation Function (HKDF)
 https://tools.ietf.org/html/rfc5869
 
-[5] Mozilla Java Security (HKDF and FIPS)
+[5] NIST AES FIPS Pub 197 
+https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf
+
+[6] NIST Special Publication 800-38B
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-38B.pdf
+
+[7] AES CMAC Algorithm 
+https://tools.ietf.org/html/rfc4493
+
+[8] AES CBC Algorithm use with IpSec
+https://tools.ietf.org/html/rfc3602
+
+[9] Mozilla Java Security (HKDF and FIPS)
 https://github.com/mozilla-services
 https://github.com/mozilla-services/sync-crypto/blob/master/src/main/java/org/mozilla/android/sync/crypto/HKDF.java
 https://github.com/quantum-fusion/jss/blob/master/org/mozilla/jss/tests/FipsTest.java
 https://github.com/quantum-fusion/jss/tree/master/org/mozilla/jss/tests
 
-[6] Amazon Web Services DynamoDb HKDF 
+[10] Amazon Web Services DynamoDb HKDF 
 https://github.com/awslabs/aws-dynamodb-encryption-java/blob/master/src/main/java/com/amazonaws/services/dynamodbv2/datamodeling/internal/Hkdf.java
 
-[7] The Transport Layer Security (TLS) Protocol Version 1.3
+[11] The Transport Layer Security (TLS) Protocol Version 1.3
 https://tools.ietf.org/html/draft-ietf-tls-tls13-12#section-8
 
-[8] NIST SP 800-56: Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography, July 2005, DRAFT
+[12] NIST SP 800-56: Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography, July 2005, DRAFT
 - KDF2 key generation 
 https://csrc.nist.gov/CSRC/media/Publications/sp/800-56a/archive/2006-05-03/documents/sp800-56-draft-jul2005.pdf#page53
 
-[9] Message Encryption for Web Push
+[13] Message Encryption for Web Push
 https://tools.ietf.org/html/rfc8291
 
-[10] Simple Certificate Enrolment Protocol, draft-gutmann-scep-06
+[14] Simple Certificate Enrolment Protocol, draft-gutmann-scep-06
 https://tools.ietf.org/id/draft-gutmann-scep-06.html
 
-[11] Simple Certificate Enrollment Protocol, draft-nourse-scep-23
+[15] Simple Certificate Enrollment Protocol, draft-nourse-scep-23
 https://tools.ietf.org/html/draft-nourse-scep-23
 
-[12] The Double Ratchet Algorithm, Revision 1, 2016-11-20, by Trevor Perrin (editor), Moxie Marlinspike
+[16] The Double Ratchet Algorithm, Revision 1, 2016-11-20, by Trevor Perrin (editor), Moxie Marlinspike
 https://signal.org/docs/specifications/doubleratchet/
 https://signal.org/docs/specifications/doubleratchet/doubleratchet.pdf
 
-[13] Curve25519 Daniel Bernstein Eliptical curve white paper
+[17] Curve25519 Daniel Bernstein Eliptical curve white paper
 https://ed25519.cr.yp.to/ed25519-20110705.pdf
 
-[14] Curve25519 Java example usage
+[18] Curve25519 Java example usage
 http://openjdk.java.net/jeps/324
 
-[15] Curve25519 and Curve448 IRTF specification
+[19] Curve25519 and Curve448 IRTF specification
 https://tools.ietf.org/html/rfc7748
 
-[16] Apple's List of available trusted root certificates in iOS 11
+[20] Apple's List of available trusted root certificates in iOS 11
 https://support.apple.com/en-us/HT208125
 
-[17] Elliptic Curve Cryptography (ECC) in OpenPGP
+[21] Elliptic Curve Cryptography (ECC) in OpenPGP
 https://tools.ietf.org/html/rfc6637
 
-[18] Edwards-Curve Digital Signature Algorithm (EdDSA)
+[22] Edwards-Curve Digital Signature Algorithm (EdDSA)
 https://tools.ietf.org/html/rfc8032
 
-[19] Dynamic Symmetric Key Provisioning Protocol (DSKPP), draft-ietf-keyprov-dskpp-14.txt, Sept 7 2010
+[23] Dynamic Symmetric Key Provisioning Protocol (DSKPP), draft-ietf-keyprov-dskpp-14.txt, Sept 7 2010
 https://tools.ietf.org/html/draft-ietf-keyprov-dskpp-14
 
-[20] NSA's Cryptographic Message Syntax (CMS) Key Management Attributes, draft-turner-km-attributes-04.txt, April 30 2014
+[24] NSA's Cryptographic Message Syntax (CMS) Key Management Attributes, draft-turner-km-attributes-04.txt, April 30 2014
 https://tools.ietf.org/html/draft-turner-km-attributes-04
 
-[21] OpenSSL X25519 public key private key generation:
+[25] OpenSSL X25519 public key private key generation:
 
     openssl genpkey -algorithm X25519 -out privkey.pem
   
     openssl pkey -in privkey.pem -pubout -out pubkey.pem
     
-[22] OpenSSL list ECC curves
+[26] OpenSSL list ECC curves
 
 openssl ecparam -list_curves
 
-[23] Acme-tiny - This is a tiny python script that renews Let's Encrypt certificates with openssl, by Ilari Liusvarra.
+[27] Acme-tiny - This is a tiny python script that renews Let's Encrypt certificates with openssl, by Ilari Liusvarra.
 https://gitlab.com/ilari_l/acme-tiny
+
+[28] GlobalPlatform 2.2.1 
+https://globalplatform.org/specs-library/card-specification-v2-3-1/
+
+[29] BSI Technical Guideline TR-03111 
+https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03111/BSI-TR-03111_V-2-1_pdf.pdf?__blob=publicationFile&v=2
+
+[30] APDU/JavaCard 
+https://docs.oracle.com/javacard/3.0.5/api/javacard/framework/APDU.html
+https://stackoverflow.com/questions/50365360/java-card-send-apdu-command-through-server
+
+[31] HSM
+https://aws.amazon.com/cloudhsm/
+
 
 
